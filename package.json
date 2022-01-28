@@ -1,0 +1,46 @@
+{
+  "name": "session-the-battle-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "_moduleAliases": {
+    "@config": "config/",
+    "@controllers": "src/controllers/",
+    "@db": "src/db",
+    "@emitters": "src/emitters/",
+    "@enums": "src/enums/",
+    "@exceptions": "src/exceptions/",
+    "@helpers": "src/helpers/",
+    "@listeners": "src/listeners/",
+    "@middleware": "src/middleware/",
+    "@models": "src/models/",
+    "@routes": "src/routes/",
+    "@services": "src/services/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/politechnika-lodzka-informatyka-niestacjonarna/session-the-battle-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/politechnika-lodzka-informatyka-niestacjonarna/session-the-battle-backend/issues"
+  },
+  "homepage": "https://gitlab.com/politechnika-lodzka-informatyka-niestacjonarna/session-the-battle-backend#readme",
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "decamelize": "^4.0.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "helmet": "^5.0.2",
+    "knex": "^1.0.1",
+    "module-alias": "^2.2.2",
+    "pg": "^8.7.1",
+    "socket.io": "^4.4.1"
+  }
+}

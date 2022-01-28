@@ -1,0 +1,11 @@
+POST {{$dotenv API_URL}}/api/v1/example HTTP/1.1
+content-type: application/json
+
+{
+   "name": "An example"
+}
+
+###
+
+GET {{$dotenv API_URL}}/api/v1/example HTTP/1.1
+content-type: application/json
